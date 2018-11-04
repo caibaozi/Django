@@ -1,9 +1,13 @@
 from django.shortcuts import render
 
 # Create your views here.
-def index(request):
+from App.models import Wheel
 
-    return render(request,'index.html')
+
+def index(request):
+    wheels = Wheel.objects.all()
+    return render(request, 'index.html', context={'wheel': wheels})
+
 
 
 def cart(request):
