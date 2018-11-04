@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d683034-ae0f-4559-9987-0b1b6550debe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/market/js/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jlg01_01/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/.idea/jlg.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/App/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/App/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/App/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/App/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/App/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/App/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/App/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/App/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/jlg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/jlg/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/jlg/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/jlg/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/css/cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/css/jquery.idcode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/css/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/css/load.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/css/product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/css/regeister.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/living.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/other_way.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/pidai1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/pidai2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/pidai3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/banner/qq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/f46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/floor1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/floor2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/floor3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/floor4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/side1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/side2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/side3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/content/side4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/bt1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/bt2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/bt3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/bt4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/bt5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/middle1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/middle2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/top1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/top2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/footer/top3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/header/phone1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/header/phone2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/ad1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/ad2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/bottom1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/bottom2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/bottom3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/bottom4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/dis9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/hot/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/nav/cart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/nav/fix.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/nav/login-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/nav/login-bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/nav/nav1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/nav/nav2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/img/nav/nav3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/jquery-1.12.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/jquery.idcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/public.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/static/js/轮播图.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/templates/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/templates/load.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/templates/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg01_01/.idea/jlg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/.idea/jlg.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg01_01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg01_01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg01_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg01_01/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/App/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg01_01/jlg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/jlg/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jlg01_01/jlg/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/jlg/settings.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="axf@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="axf@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="axf@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="axf: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="axf@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="817702359">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Django Console" value="2" />
+          <entry key="html" value="846" />
+          <entry key="js" value="1" />
+          <entry key="py" value="891" />
+          <entry key="py@AXF" value="33" />
+          <entry key="txt" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CommandLine" value="28" />
+          <entry key="HTML" value="846" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="893" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="auth_group" value="1" />
+          <entry key="axf_mustbuy" value="3" />
+          <entry key="axf_nav" value="4" />
+          <entry key="axf_wheel" value="5" />
+          <entry key="css" value="1" />
+          <entry key="django_session" value="2" />
+          <entry key="html" value="11" />
+          <entry key="js" value="4" />
+          <entry key="py" value="5" />
+          <entry key="sql" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="Database Element" value="15" />
+          <entry key="HTML" value="11" />
+          <entry key="JavaScript" value="4" />
+          <entry key="Python" value="5" />
+          <entry key="Scratch" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+    <session id="983573506">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="18" />
+          <entry key="html" value="1054" />
+          <entry key="js" value="72" />
+          <entry key="py" value="1047" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="1054" />
+          <entry key="JavaScript" value="72" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="1047" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="App_mainshow" value="1" />
+          <entry key="axf_foodtypes" value="3" />
+          <entry key="axf_goods" value="1" />
+          <entry key="axf_shop" value="1" />
+          <entry key="css" value="3" />
+          <entry key="html" value="1" />
+          <entry key="js" value="2" />
+          <entry key="py" value="1" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="Database Element" value="6" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Python" value="1" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+              <folding>
+                <element signature="n#block#2;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/market/market.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="e#1114#1858#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/market/js/market.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AXF/__init__.py" />
+        <option value="$PROJECT_DIR$/AXF/settings.py" />
+        <option value="$PROJECT_DIR$/AXF/urls.py" />
+        <option value="$PROJECT_DIR$/templates/cart/cart.html" />
+        <option value="$PROJECT_DIR$/templates/mine/mine.html" />
+        <option value="$PROJECT_DIR$/static/home/js/home.js" />
+        <option value="$PROJECT_DIR$/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/static/base/css/base.css" />
+        <option value="$PROJECT_DIR$/App/models.py" />
+        <option value="$PROJECT_DIR$/static/market/css/market.css" />
+        <option value="$PROJECT_DIR$/static/market/market.js" />
+        <option value="$PROJECT_DIR$/App/views.py" />
+        <option value="$PROJECT_DIR$/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/App/urls.py" />
+        <option value="$PROJECT_DIR$/templates/market/market.html" />
+        <option value="$PROJECT_DIR$/static/market/js/market.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="76" />
+    <option name="y" value="52" />
+    <option name="width" value="1193" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="AXF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="axf-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="axf-master" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="market" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/market/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/base/img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AXF" type="Python.DjangoServer" factoryName="Django server">
+      <module name="AXF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d683034-ae0f-4559-9987-0b1b6550debe" name="Default Changelist" comment="" />
+      <created>1540979514803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540979514803</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1165" height="854" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16175157" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="manage.py@AXF" order="9" weight="0.32833788" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32970026" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2036011" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32833788" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32960895" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.28507596" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/home/home.html</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/39e8d8eb-c23e-42dd-a10e-3df86476df39/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AXF/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AXF/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AXF/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cart/cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39e8d8eb-c23e-42dd-a10e-3df86476df39/schema/axf/table/axf_wheel" />
+    <entry file="das://39e8d8eb-c23e-42dd-a10e-3df86476df39/schema/axf/table/auth_group" />
+    <entry file="file://$PROJECT_DIR$/templates/mine/mine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39e8d8eb-c23e-42dd-a10e-3df86476df39/schema/axf/table/axf_nav" />
+    <entry file="das://39e8d8eb-c23e-42dd-a10e-3df86476df39/schema/axf/table/axf_mustbuy" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/22376183-b5e7-4664-afac-846b79c63980/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://3707bc90-6764-46e5-9068-116079f96814/schema/axf/table/axf_nav" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3707bc90-6764-46e5-9068-116079f96814/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://3707bc90-6764-46e5-9068-116079f96814/schema/axf/table/axf_wheel" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1f783982-2fe3-4b7d-8524-f531b3cce383/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://1f783982-2fe3-4b7d-8524-f531b3cce383/schema/axf/table/axf_nav" />
+    <entry file="file://$PROJECT_DIR$/static/home/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/base/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1f783982-2fe3-4b7d-8524-f531b3cce383/schema/axf/table/django_session" />
+    <entry file="das://1f783982-2fe3-4b7d-8524-f531b3cce383/schema/axf/table/axf_mustbuy" />
+    <entry file="das://1f783982-2fe3-4b7d-8524-f531b3cce383/schema/axf/table/axf_wheel" />
+    <entry file="das://12beaaac-1977-42a9-aa3f-3fb958652d41/schema/axf/table/axf_shop">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/12beaaac-1977-42a9-aa3f-3fb958652d41/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://12beaaac-1977-42a9-aa3f-3fb958652d41/schema/axf/table/App_mainshow">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="118" column="35" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
+          <folding>
+            <element signature="e#1529#1715#0#HTML" />
+            <element signature="e#1720#1945#0#HTML" />
+            <element signature="e#1950#2169#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://12beaaac-1977-42a9-aa3f-3fb958652d41/schema/axf/table/axf_goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+          <folding>
+            <marker date="1541337687108" expanded="true" signature="844:934" ph="..." />
+            <marker date="1541337687108" expanded="true" signature="1891:1896" ph="..." />
+            <marker date="1541337687108" expanded="true" signature="2175:2180" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/base/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1903">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/market/css/market.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://12beaaac-1977-42a9-aa3f-3fb958652d41/schema/axf/table/axf_foodtypes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="n#block#2;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/market/market.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#1114#1858#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/market/js/market.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
