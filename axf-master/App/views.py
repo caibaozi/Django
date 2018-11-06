@@ -64,3 +64,11 @@ def mine(request):
 
 def cart(request):
     return render(request,'cart/cart.html')
+
+
+def registe(request):
+    if request.method == 'GET':
+        pass
+    elif request.method == 'POST':
+        pass
+    return render(request,'mine/registe.html')

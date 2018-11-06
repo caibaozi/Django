@@ -1,7 +1,8 @@
-from django.shortcuts import render
+from django.http import HttpResponse
+from django.shortcuts import render, redirect
 
 # Create your views here.
-from App.models import Wheel
+from App.models import Wheel, User
 
 
 def index(request):
@@ -15,7 +16,27 @@ def cart(request):
 
 
 def list(request):
-    return render(request,'list.html')
+    if request.method == 'GET':
+        return render(request,'load.html')
+    elif request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+
+
+        users = User.objects.filter(username=username).filter(password=password)
+        if users.count():
+            user = users.first()
+            response = redirect('jlg:index')
+
+            response.set_cookie('username',user.user.username)
+            return response
+        else:
+            return HttpResponse('用户木或者密码错误！')
+
+
+
+
+
 
 
 def load(request):
@@ -27,4 +48,17 @@ def product(request):
 
 
 def register(request):
-    return render(request,'register.html')
+    if request.method == 'GET':
+        return render(request,'register.html')
+    elif request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        print(username,password)
+        user = User()
+        user.username = username
+        user.password = password
+        user.save()
+
+        response = redirect('jlg:index')
+        response.set_cookie('username',username)
+    return response

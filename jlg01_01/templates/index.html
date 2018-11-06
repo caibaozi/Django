@@ -70,11 +70,9 @@
 		<div id="banner">
 			<div class="box1">
 				<ul id="list1">
-					<li><img src="{% static 'img/banner/bg1.jpg' %}"></li>
-					<li><img src="{% static 'img/banner/bg2.jpg' %}"></li>
-					<li><img src="{% static 'img/banner/bg3.jpg' %}"></li>
-					<li><img src="{% static 'img/banner/bg4.jpg' %}"></li>
-					<li><img src="{% static 'img/banner/bg5.jpg' %}"></li>
+					{% for foo in wheel %}
+                        <li><img src="{{ foo.img }}" alt=""></li>
+                    {% endfor %}
 				<li><img src="{% static 'img/banner/bg1.jpg' %}"></li></ul>
 				<ul id="list2">
 					<li class="change">1</li>

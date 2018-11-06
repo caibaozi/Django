@@ -26,22 +26,23 @@
 						<a href="#">嘉丽购电视会员激活入口</a>
 					</div>
 				</div>
-				<div id="t_bottom">
+                <form action="/load/">
+                    <div id="t_bottom">
 					<img class="fl" src="{% static 'img/nav/login-bg.jpg' %}">
 					<div class="_loading fl">
 						<div class="user">
 							<p class="first_p">嘉丽购会员登录
-								<a href="#" class="free">免费注册</a>
+								<a href="/register/" class="free">免费注册</a>
 							</p>
 							<p class="text">
-								<input id="username" placeholder="用户名/邮箱/电话号码" type="text">
+								<input id="username" placeholder="用户名/邮箱/电话号码" type="text" name="username">
 							</p>
 							<p class="text">
-								<input id="pwd" placeholder="密码" type="text">
+								<input id="pwd" placeholder="密码" type="text" name="password">
 							</p>
 							<p class="text">
 								<input id="Txtidcode" class="txtVerification fl" placeholder="验证码" type="text">
-								<span id="idcode"><div id="ehong-code" class="ehong-idcode-val ehong-idcode-val4" href="#" onblur="return false" onfocus="return false" oncontextmenu="return false" onclick="$.idcode.setCode()"><font color="#BF0C43">L</font><font color="#BF0C43">R</font><font color="#73C841">o</font><font color="#BF0C43">J</font></div><span id="ehong-code-tip-ck" class="ehong-code-val-tip" onclick="$.idcode.setCode()"></span></span>
+								<span id="idcode"><span id="ehong-code-tip-ck" class="ehong-code-val-tip" onclick="$.idcode.setCode()"></span></span>
 								<!--<input type="text"  id="istrue" placeholder="验证码"/>
 							<input type="text" id="idcode" />-->
 							</p>
@@ -50,7 +51,7 @@
 								<a href="#" class="finding">找回密码</a>
 							</p>
 							<p class="text">
-								<input value="登录" id="_load" type="button">
+								<input value="登录" id="_load" type="submit" >
 							</p>
 							<p class="last_p">亲，没有帐号，你可以选择以下快捷登录方式！</p>
 							<div class="_div1"></div>
@@ -67,7 +68,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
+
+                </form>
 			<!--尾部-->
 			<div id="footer">
 				<div class="f_top">
