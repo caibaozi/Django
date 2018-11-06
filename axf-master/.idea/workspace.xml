@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d683034-ae0f-4559-9987-0b1b6550debe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/mine/css/registe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mine/js/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mine/js/mine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/mine/js/registeAXF.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/uploads/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/uploads/qq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mine/registe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AXF/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AXF/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/mine/css/mine.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/mine/css/mine.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mine/mine.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/mine/mine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/.idea/jlg.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/.idea/modules.xml" beforeDir="false" />
@@ -149,16 +135,7 @@
       <change beforePath="$PROJECT_DIR$/../jlg/templates/load.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/templates/product.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jlg01_01/.idea/jlg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/.idea/jlg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jlg01_01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jlg01_01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg01_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jlg01_01/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/App/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jlg01_01/App/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/App/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jlg01_01/jlg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/jlg/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jlg01_01/jlg/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/jlg/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jlg01_01/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jlg01_01/templates/load.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jlg01_01/templates/load.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -268,26 +245,26 @@
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="249" />
-          <entry key="html" value="2086" />
-          <entry key="js" value="395" />
+          <entry key="css" value="257" />
+          <entry key="html" value="2130" />
+          <entry key="js" value="634" />
           <entry key="py" value="1424" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="249" />
-          <entry key="HTML" value="2086" />
-          <entry key="JavaScript" value="395" />
+          <entry key="CSS" value="257" />
+          <entry key="HTML" value="2130" />
+          <entry key="JavaScript" value="634" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="1424" />
         </counts>
@@ -345,8 +322,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mine/registe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="113">
+              <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -354,8 +331,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/mine/css/registe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="456">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -363,8 +340,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/mine/js/registeAXF.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            <state relative-caret-position="455">
+              <caret line="90" column="45" lean-forward="true" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -372,7 +349,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1387">
+            <state relative-caret-position="455">
               <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -384,7 +361,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="152">
               <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -431,8 +408,8 @@
         <option value="$PROJECT_DIR$/static/mine/js/registe.js" />
         <option value="$PROJECT_DIR$/templates/mine/mine.html" />
         <option value="$PROJECT_DIR$/App/views.py" />
-        <option value="$PROJECT_DIR$/static/mine/css/registe.css" />
         <option value="$PROJECT_DIR$/templates/mine/registe.html" />
+        <option value="$PROJECT_DIR$/static/mine/css/registe.css" />
         <option value="$PROJECT_DIR$/static/mine/js/registeAXF.js" />
       </list>
     </option>
@@ -444,10 +421,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="76" />
-    <option name="y" value="52" />
-    <option name="width" value="1193" />
-    <option name="height" value="701" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="573" />
+    <option name="height" value="455" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -600,9 +577,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1849" height="864" extended-state="6" />
+    <frame x="67" y="25" width="1348" height="854" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09872435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05299539" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -617,14 +595,14 @@
       <window_info anchor="bottom" id="manage.py@AXF" order="9" weight="0.32833788" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32970026" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.20637119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.13296399" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32833788" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.006655574" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.00921659" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -835,33 +813,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mine/registe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/mine/css/registe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="152">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -869,10 +823,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mine/registe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/mine/css/registe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/mine/js/registeAXF.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="455">
+          <caret line="90" column="45" lean-forward="true" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
         </state>
       </provider>
     </entry>

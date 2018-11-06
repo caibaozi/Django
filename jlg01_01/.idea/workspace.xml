@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46dbd987-4ac1-4f81-ae85-9ed339315278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../axf-master/static/mine/css/registe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../axf-master/static/mine/js/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../axf-master/static/mine/js/mine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../axf-master/static/mine/js/registeAXF.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../axf-master/static/uploads/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../axf-master/static/uploads/qq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../axf-master/templates/mine/registe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../axf-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../axf-master/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../axf-master/AXF/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../axf-master/AXF/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../axf-master/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../axf-master/App/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../axf-master/App/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../axf-master/App/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../axf-master/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../axf-master/App/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../axf-master/static/mine/css/mine.css" beforeDir="false" afterPath="$PROJECT_DIR$/../axf-master/static/mine/css/mine.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../axf-master/templates/mine/mine.html" beforeDir="false" afterPath="$PROJECT_DIR$/../axf-master/templates/mine/mine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/.idea/jlg.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/.idea/modules.xml" beforeDir="false" />
@@ -149,18 +135,6 @@
       <change beforePath="$PROJECT_DIR$/../jlg/templates/load.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/templates/product.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jlg/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jlg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jlg.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jlg/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/jlg/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jlg/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jlg/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/load.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/load.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -263,7 +237,7 @@
     <session id="1996721815">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -274,29 +248,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="App_wheel" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="10" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="94" />
-          <entry key="py" value="462" />
+          <entry key="html" value="131" />
+          <entry key="py" value="759" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="94" />
+          <entry key="HTML" value="131" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="462" />
+          <entry key="Python" value="759" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -318,10 +292,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jlg/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/load.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
+            <state relative-caret-position="117">
+              <caret line="53" column="75" selection-start-line="53" selection-start-column="75" selection-end-line="53" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -350,20 +333,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="193">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jlg/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -400,11 +374,11 @@
         <option value="$PROJECT_DIR$/templates/cart.html" />
         <option value="$PROJECT_DIR$/jlg/__init__.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/load.html" />
         <option value="$PROJECT_DIR$/App/models.py" />
         <option value="$PROJECT_DIR$/jlg/settings.py" />
         <option value="$PROJECT_DIR$/App/urls.py" />
         <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/templates/load.html" />
         <option value="$PROJECT_DIR$/jlg/urls.py" />
         <option value="$PROJECT_DIR$/App/views.py" />
       </list>
@@ -473,7 +447,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../axf-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -546,10 +520,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1215" height="854" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1849" height="864" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1334474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.058790904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -563,14 +536,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003362" side_tool="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33795014" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.329235" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.01710864" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.011092624" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,20 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/load.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jlg/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -718,12 +677,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jlg/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/load.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="53" column="75" selection-start-line="53" selection-start-column="75" selection-end-line="53" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="193">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
