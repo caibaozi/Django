@@ -17,7 +17,8 @@
 	</head>
 
 <body>
-	<div class="bigbox">
+
+<div class="bigbox">
 			<div id="top">
 				<div id="t_top">
 					<img class="_load_img fl" src="{% static 'img/nav/nav1.jpg' %}">
@@ -26,10 +27,13 @@
 						<a href="#">嘉丽购电视会员激活入口</a>
 					</div>
 				</div>
-                <form action="/load/">
-                    <div id="t_bottom">
+
+				<div id="t_bottom">
 					<img class="fl" src="{% static 'img/nav/login-bg.jpg' %}">
+
 					<div class="_loading fl">
+                        <form action="/load/" method="post">
+                    {% csrf_token %}
 						<div class="user">
 							<p class="first_p">嘉丽购会员登录
 								<a href="/register/" class="free">免费注册</a>
@@ -38,11 +42,11 @@
 								<input id="username" placeholder="用户名/邮箱/电话号码" type="text" name="username">
 							</p>
 							<p class="text">
-								<input id="pwd" placeholder="密码" type="text" name="password">
+								<input id="pwd" placeholder="密码" type="password" name="password">
 							</p>
 							<p class="text">
 								<input id="Txtidcode" class="txtVerification fl" placeholder="验证码" type="text">
-								<span id="idcode"><span id="ehong-code-tip-ck" class="ehong-code-val-tip" onclick="$.idcode.setCode()"></span></span>
+								<span id="idcode"></span>
 								<!--<input type="text"  id="istrue" placeholder="验证码"/>
 							<input type="text" id="idcode" />-->
 							</p>
@@ -51,14 +55,14 @@
 								<a href="#" class="finding">找回密码</a>
 							</p>
 							<p class="text">
-								<input value="登录" id="_load" type="submit" >
+								<input value="登录" id="_load" type="submit">
 							</p>
 							<p class="last_p">亲，没有帐号，你可以选择以下快捷登录方式！</p>
 							<div class="_div1"></div>
 							<div class="_div2"></div>
 							<div class="_div3"></div>
 						</div>
-
+                            </form>
 						<div class="qq">
 							<img src="{% static 'img/banner/qq.jpg' %}" class="fl _qq">
 							<a href="#" class="fl">qq登录</a>
@@ -69,7 +73,8 @@
 					</div>
 				</div>
 
-                </form>
+			</div>
+
 			<!--尾部-->
 			<div id="footer">
 				<div class="f_top">

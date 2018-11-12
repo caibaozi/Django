@@ -134,7 +134,7 @@ $(function() {
 		location.href = "load.html";
 	})
 	//点击+-按钮，数量增加减
-	$(".cart_span4").click(function() {
+	$("#jia").click(function() {
 		var _num = $(this).prev("span").html();
 		_num++;
 		$(this).prev("span").html(_num);
@@ -168,4 +168,7 @@ $(function() {
 				$(".money").html(summoney);
 				$("._all").html(summoney);
 			}
+
+
+
 })

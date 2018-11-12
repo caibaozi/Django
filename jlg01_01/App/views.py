@@ -2,36 +2,23 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
-from App.models import Wheel, User
+from App.models import Wheel, User, Goods
 
 
 def index(request):
     wheels = Wheel.objects.all()
-    return render(request, 'index.html', context={'wheel': wheels})
+    goods = Goods.objects.all()
+    return render(request, 'index.html', context={'wheel': wheels,'goods':goods})
 
 
 
-def cart(request):
-    return render(request,'cart.html')
+def cart(request,id):
+    goods = Goods.objects.filter(id=id).first()
+    return render(request,'cart.html',context={'goods':goods})
 
 
 def list(request):
-    if request.method == 'GET':
-        return render(request,'load.html')
-    elif request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-
-
-        users = User.objects.filter(username=username).filter(password=password)
-        if users.count():
-            user = users.first()
-            response = redirect('jlg:index')
-
-            response.set_cookie('username',user.user.username)
-            return response
-        else:
-            return HttpResponse('用户木或者密码错误！')
+    return render(request,'list.html')
 
 
 
@@ -40,11 +27,27 @@ def list(request):
 
 
 def load(request):
-    return render(request,'load.html')
+    if request.method == 'GET':
+        return render(request,'load.html')
+    elif request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        print(username,password)
+
+        users = User.objects.filter(username=username).filter(password=password)
+        if users.count():
+            user = users.first()
+            response = redirect('jlg:index')
+            response.set_cookie('username',user.username)
+            return response
+        else:
+            return HttpResponse('用户名或者密码错误！')
 
 
-def product(request):
-    return render(request,'product.html')
+def product(request,id):
+    goods = Goods.objects.filter(id=id).first()
+
+    return render(request,'product.html',context={'goods':goods})
 
 
 def register(request):

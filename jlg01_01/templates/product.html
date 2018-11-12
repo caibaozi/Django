@@ -4,7 +4,7 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<title>花花公子男士皮具必备三件套</title>
+		<title>{{ goods.goodsname }}</title>
 		<link rel="stylesheet" type="text/css" href='{% static "css/product.css" %}' />
 		<link rel="stylesheet" type="text/css" href='{% static "css/footer.css" %}' />
 		<script src='{% static "js/jquery-1.12.0.js" %}' type="text/javascript" charset="utf-8"></script>
@@ -47,8 +47,9 @@
 					<input value="搜索" class="btn1" style="border: none;" type="button">
 				</div>
 				<div class="shopping fl">
+                    <a href="/cart/">
 					<span class="mycar">我的购物车</span>
-					<div class="number">0</div>
+					<div class="number">0</div></a>
 				</div>
 				<div class="TV">
 					<p>
@@ -80,20 +81,20 @@
 				</div>
 				<div id="pidai">
 					<ul>
-						<li class="active"><img src="{% static 'img/banner/pidai1.jpg/' %}"></li>
-						<li><img src="{% static 'img/banner/pidai2.jpg/' %}"></li>
-						<li><img src="{% static 'img/banner/pidai3.jpg/' %}"></li>
+						<li class="active"><img src="{% static goods.img %}"></li>
+						<li><img src="{% static goods.img %}"></li>
+						<li><img src="{% static goods.img %}"></li>
 					</ul>
 					<div class="smallArea"></div>
 
 				</div>
 				<div id="buying">
 					<p class="_p1">
-						<a>花花公子皮具男士必备三件套</a>
+						<a>{{ goods.goodsname }}</a>
 						<b>(供货号：20119845)</b>
 					</p>
 					<div class="buy">
-						<p class="p2">嘉丽价<span class="json_span1"><span class="pa1">￥</span><a class="pa2">169</a></span></p>
+						<p class="p2">嘉丽价<span class="json_span1"><span class="pa1">￥</span><a class="pa2">{{ goods.prse }}</a></span></p>
 						<p class="p2">积分<span>订购此商品可返回<a class="pa3">119*2</a>积分</span></p>
 					</div>
 					<div class="num">
@@ -106,20 +107,20 @@
 						<p></p>
 					</div>
 					<div class="buying fl">立即购买</div>
-					<div class="addCart fl">加入购物车</div>
+                    <a href="{% url 'jlg:cart' goods.id %}"><div class="addCart fl">加入购物车</div></a>
 					<div class="collect fl">收藏</div>
 					<div class="bigArea">
 						<ul>
-							<li class="disp"><img src="{% static 'img/banner/pidai1.jpg/ ' %}" class="bigimg"></li>
-							<li><img src="{% static 'img/banner/pidai2.jpg/' %}" class="bigimg"></li>
-							<li><img src="{% static 'img/banner/pidai3.jpg/' %}" class="bigimg"></li>
+							<li class="disp"><img src="{% static goods.img %}" class="bigimg"></li>
+							<li><img src="{% static goods.img %}" class="bigimg"></li>
+							<li><img src="{% static goods.img %}"class="bigimg"></li>
 						</ul>
 					</div>
 				</div>
 				<div id="small">
-					<div class="pidai fl "><img src="{% static 'img/banner/pidai1.jpg' %}"></div>
-					<div class="pidai fl"><img src="{% static 'img/banner/pidai2.jpg' %}"></div>
-					<div class="pidai fl "><img src="{% static 'img/banner/pidai3.jpg' %}"></div>
+					<div class="pidai fl "><img src="{% static goods.img %}"></div>
+					<div class="pidai fl"><img src="{% static goods.img %}"></div>
+					<div class="pidai fl "><img src="{% static goods.img %}"></div>
 				</div>
 			</div>
 
